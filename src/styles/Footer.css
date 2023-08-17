@@ -1,0 +1,23 @@
+
+body{
+    position: relative;
+}
+.pied-page{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(230, 230, 164);
+  
+}
+.icone-rs{
+    width: 35px;
+    margin: 20px 25px;
+    
+}

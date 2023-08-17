@@ -1,0 +1,58 @@
+.description{
+    margin: 120px 170px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+    position: relative;
+    
+}
+.img-descrip{
+    width: 100%;
+    height:500px;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 2px solid #f2f1f4;
+    justify-self: center;
+}
+.categorie-descrip{
+
+    color:#ff895b ;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 0 15px;
+    
+}
+.pays-descrip{
+    
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    right: 15px;
+    background-color: #ff895bc9;
+    padding: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    border-radius: 3px;
+    
+}
+.texte-descrip{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #271a38;
+    line-height: 25px;
+    
+}
+.titre-descrip{
+    font-size: 40px;
+}
+.auteur-descrip,.date-descrip{
+    padding: 15px;
+    color: grey;
+    font-size: 17px;
+    display: inline-block;
+}

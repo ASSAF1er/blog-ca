@@ -1,0 +1,104 @@
+.img-couverture{
+    width: 500px;
+    border-radius: 0px 19px 19px 0 ;
+}
+.couverture{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    margin: 20px ;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 0 0  grey;
+}
+.texte-gras{
+   font-size: 32px;
+   font-weight:bold;
+}
+.texte-normal{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.btn-telecharger{
+    margin-left:90px;
+    margin-top: 25px;
+    padding: 10px 30px;
+    background-color: #ff895b;
+    border: 2px solid #ff895b;
+    border-radius:30px ;
+    font-size: 17px;
+    font-weight: 700;
+    color:white ;
+    cursor:pointer;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-self: center;
+    font-family: "HK CompaktHK";
+    box-shadow: 1.5px 2.5px 0 0  grey;
+    transition: 0.5s;
+}
+.btn-telecharger:hover{
+    box-shadow: none;
+    transform: scale(0.98);
+}
+.slider{
+    margin-top: 15px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.slider p{
+    line-height: 30px;
+    text-decoration: underline #ff895b;
+    font-weight: bold;
+    
+
+}
+.slider p:first-child{
+    animation: anim 20s infinite;
+    
+}
+
+@keyframes anim {
+    0%{
+        margin-top: 0;
+    }
+    10%{
+        margin-top: -30px;
+    }  
+    20%{
+        margin-top: -60px;
+    }  
+    30%{
+        margin-top: -90px;
+    }  
+    40%{
+        margin-top: -120px;
+    }  
+    50%{
+        margin-top: -150px;
+    }  
+    60%{
+        margin-top: -120px;
+    }  
+    70%{
+        margin-top: -90px;
+    }  
+    80%{
+        margin-top: -60px;
+    }  
+    90%{
+        margin-top: -30px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}

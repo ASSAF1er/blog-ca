@@ -1,0 +1,107 @@
+.add-form{
+    
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+   
+}
+input, textarea{
+    width: 500px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px grey ;
+    padding: 5px 10px;
+    margin: 10px 0 ;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+    outline: 2px solid #ff895bef;
+    background-color: white;
+    
+}
+.img-input{
+    border: none;
+    background-color: transparent;
+}
+.img-input:focus{
+    outline: none;
+    background-color: transparent;
+}
+.img-previewer{
+    width: 500px;
+    max-height: 250px;
+    border-radius: 5px;
+    border: solid 1px grey ;
+    padding: 5px 10px;
+    margin: 10px 0 ;
+    background-color: #f7f7f7;
+    font-size: 16px; 
+}
+.add-form textarea{
+    height: 100px;
+}
+.add-form h1{
+    text-align: center;
+    margin: 20px 0 50px;
+}
+.add-form button{
+    background-color: #ff895bef;
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: none;
+    justify-self: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 30px;
+    transition: 1s;
+    color: #f7f7f7;
+    box-shadow: 0 1px 3px 0 #20212447;
+}
+.add-form button:hover{
+    background-color: #e6784cef;
+    
+    cursor: pointer;
+}
+.img-preview{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.error{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;margin-bottom: 10px;
+}
+.input-error{
+    border: 2px solid rgb(246, 96, 96) ;
+}
+.finish-div{
+    width: 310px;
+    background-color: #ff895be1;
+    height: 50px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    box-shadow: 2px 5px 5px 0  #b6b1b1;
+    z-index: 100;
+    position:fixed;
+    
+    
+}
+.appear{
+    left: 50%;
+    transition: 2s;
+}

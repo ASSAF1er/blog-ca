@@ -1,0 +1,8 @@
+.blog-list-container{
+ 
+    margin: 80px 100px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
