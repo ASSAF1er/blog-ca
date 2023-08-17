@@ -1,5 +1,5 @@
 
-import couverture from '../assets/img-couverture.jpg'
+import couverture from '../assets/homme_cuisine.png'
 import '../styles/Couverture.css'
 function Couverture(){
     return(

@@ -92,33 +92,38 @@ function AddForm(){
             <input type="date" value={date} onChange={(e)=>setDate(e.target.value)} className={ errors.date ?'input-error':''} required/> <br />
             </label>{errors.date && <p className='error'>{errors.date}</p>}
 
-            <label htmlFor="">Heure</label><br />
+            <label htmlFor="">Heure<br />
             <input type="time" required /><br />
+            </label>
 
-            <label>Image de couverture</label><br />
+            <label>Image de couverture<br />
             <div  className={`${'img-previewer'} ${errors.cover ? 'input-error':''}`}>
                 <input type="file" className='img-input' accept='image/*'   onChange={handleChange}/><br />
                 <img src={file} alt="" className='img-preview'/><br />
             </div>
             {errors.cover && <p className='error'>{errors.cover}</p>}
-           
+           </label>
 
-            <label>Catégorie</label><br />
+            <label>Catégorie<br />
             <input type="text" value={category} onChange={(e)=>setCategory(e.target.value)} className={ errors.category?'input-error':''} placeholder=' exemple Recette, Astuce,..'/><br />
             {errors.category && <p className='error'>{errors.category}</p>}
+            </label>
 
-            <label>Pays</label><br />
+            <label>Pays<br />
             <input type="text" value={country} onChange={(e)=>setCountry(e.target.value)} className={ errors.country ?'input-error':''} placeholder='Cameroun'/><br />
             {errors.country && <p className='error'>{errors.country}</p>}
+            </label>
 
-            <label>Description</label><br />
+            <label>Description<br />
             <textarea  type="text" value={description} onChange={(e)=>setDescription(e.target.value)} placeholder='Tout le texte de votre article ici' className={ errors.description ?'input-error':''}/><br />
             {errors.description && <p className='error'>{errors.description}</p>}
+            </label>
 
-            <label>Auteur</label> <br />
+            <label>Auteur <br />
             <input type="text"  value={autor} onChange={(e)=>setAutor(e.target.value)} className={ errors.autor ?'input-error':''} placeholder='Votre nom'/><br />
             {errors.autor && <p className='error'>{errors.autor}</p>}
-
+            </label>
+            
             <button type='submit' onClick={handleClick}>Ajouter</button>
 
         </form>
