@@ -1,5 +1,5 @@
 
-import couverture from '../assets/homme_cuisine.png'
+import couverture from '../assets/photo_couverture1.png'
 import '../styles/Couverture.css'
 function Couverture(){
     return(
@@ -19,8 +19,8 @@ function Couverture(){
                     <p>Commander des repas</p>
                 </div>
                
-                <button className="btn-telecharger" onClick={(e)=>{e.preventDefault(); window.open('https://play.google.com/store/apps/details?id=cm.seeds.cuisinedafrique&hl=fr&gl=US','_blank')}}>Télécharger l'Application </button>
-            </div></div>
+            </div>                <button className="btn-telecharger" onClick={(e)=>{e.preventDefault(); window.open('https://play.google.com/store/apps/details?id=cm.seeds.cuisinedafrique&hl=fr&gl=US','_blank')}}>Télécharger l'Application </button>
+</div>
             <img src={couverture} alt="couverture" className='img-couverture' />
         </div>
     )
