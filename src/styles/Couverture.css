@@ -1,19 +1,23 @@
 .img-couverture{
-    width: 500px;
-    border-radius: 0px 19px 19px 0 ;
+    width: 520px;
+    border-radius: 0px 19px 5px 0 ;
+    
+  
 }
 .couverture{
     display: flex;
     flex-direction: row;
     
-    margin: 70px 0 30px ;
+    margin: 70px 0 60px ;
     border-radius: 0px;
     background-color: transparent;
     
 }
 .texte-gras{
-   font-size: 32px;
+   font-size: 35px;
    font-weight:bold;
+   line-height: 40px;
+
 }
 .texte-normal{
     margin-top: 20px;
@@ -22,24 +26,26 @@
 .texte{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
+    z-index: 9px;
+    
     
 }
 .btn-telecharger{
-    margin-left:90px;
+    margin-left:190px;
     margin-top: 25px;
-    padding: 10px 30px;
+    padding: 12px 35px;
     background-color: #ff895b;
     border: 2px solid #ff895b;
     border-radius:30px ;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
     color:white ;
     cursor:pointer;
     display: flex;
     flex-wrap: wrap;
 
-    align-self: center;
+    justify-self: center;
     font-family: "HK CompaktHK";
     box-shadow: 0 1px 6px 0 #20212447;
     transition: 0.5s;
@@ -49,16 +55,18 @@
     transform: scale(0.98);
 }
 .slider{
-    margin-top: 15px;
+    margin: 40px 0;
     height: 30px;
     text-align: center;
     overflow: hidden;
-
+   
 }
 .slider p{
     line-height: 30px;
     text-decoration: underline #ff895b;
     font-weight: bold;
+    font-size: 30px;
+    
     
 
 }
@@ -68,23 +76,20 @@
 }
 
 @keyframes anim {
-    0%{
+    10%{
         margin-top: 0;
     }
-    10%{
+    20%{
         margin-top: -30px;
     }  
-    20%{
+    30%{
         margin-top: -60px;
     }  
-    30%{
+    40%{
         margin-top: -90px;
     }  
-    40%{
-        margin-top: -120px;
-    }  
     50%{
-        margin-top: -150px;
+        margin-top: -120px;
     }  
     60%{
         margin-top: -120px;
@@ -99,6 +104,6 @@
         margin-top: -30px;
     }
     100%{
-        margin-top: 0;
+        margin-top: 0px;
     }
 }

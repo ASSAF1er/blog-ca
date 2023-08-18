@@ -10,13 +10,13 @@ function Couverture(){
                 d'Afrique et des <span style={{color:'#ff895bef'}}>Astuces</span> à vous couper le souffle
             </div>
             <div className="texte-normal">
-                Dans l'Application vous pourrez
+                Dans l'application vous pourrez
                 <div className="slider">
                     <p>Commander des ingrédients</p>
-                    <p>avoir des plans de repas sur 7 jours</p>
-                    <p>recevoir des plans de recettes</p>
-                    <p>etre notifiés sur des recettes</p>
-                    <p>commander des repas</p>
+                    <p>Avoir des plans de repas sur 7 jours</p>
+                    <p>Recevoir des plans de recettes</p>
+                    <p>Etre notifiés sur des recettes</p>
+                    <p>Commander des repas</p>
                 </div>
                
                 <button className="btn-telecharger" onClick={(e)=>{e.preventDefault(); window.open('https://play.google.com/store/apps/details?id=cm.seeds.cuisinedafrique&hl=fr&gl=US','_blank')}}>Télécharger l'Application </button>

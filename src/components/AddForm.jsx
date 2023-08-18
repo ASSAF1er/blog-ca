@@ -46,7 +46,7 @@ function AddForm(){
             autor:autor,
             date:date,
             pays:country,
-            drapeau:'rien', 
+            drapeau:'', 
             description:description,
         
         }])
@@ -123,7 +123,7 @@ function AddForm(){
             <input type="text"  value={autor} onChange={(e)=>setAutor(e.target.value)} className={ errors.autor ?'input-error':''} placeholder='Votre nom'/><br />
             {errors.autor && <p className='error'>{errors.autor}</p>}
             </label>
-            
+
             <button type='submit' onClick={handleClick}>Ajouter</button>
 
         </form>

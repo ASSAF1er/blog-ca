@@ -1,23 +1,27 @@
 
-body{
-    position: relative;
-}
 .pied-page{
     padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute;
+    justify-content: center;
     bottom: 0;
     left: 0;
     background-color: rgb(230, 230, 164);
-  
+    width: all;
+  font-size: 18px;
 }
 .icone-rs{
     width: 35px;
-    margin: 20px 25px;
+    margin: 0 15px;
+    cursor: pointer;
+    
+}
+.entreprise{
+    font-style: italic;
+    color: rgb(111, 66, 111);
+    font-weight: bold;
+    cursor: pointer;
     
 }

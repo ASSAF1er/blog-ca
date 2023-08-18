@@ -8,11 +8,11 @@ function Footer(){
         
             <div className="pied-page">
             <footer>
-                CUISINE AFRICAINE & RECETTES copyRight 2023 | Powered By ASSAF SOFT SOLUTIONS
-                SUIVEZ-NOUS
-                <img src={facebook} alt="" className='icone-rs' />
-                <img src={instagram} alt="" className='icone-rs'/>
-                <img src={twitter} alt="" className='icone-rs'/>
+                Cuisine Africaine & Recettes  ©2023 | Powered By <span className='entreprise'>  Assaf Soft Solutions</span> 
+               
+                <img src={facebook} alt="" className='icone-rs' title='suivez nous sur Facebook'/>
+                <img src={instagram} alt="" className='icone-rs' title='suivez nous sur Instagram' />
+                <img src={twitter} alt="" className='icone-rs' title='suivez nous sur Twitter'/>
            </footer> 
            </div>
         

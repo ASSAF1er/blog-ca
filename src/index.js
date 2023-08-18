@@ -4,7 +4,7 @@ import BlogList from './components/BlogList'
 import './styles/Menu.css'
 import ArticleListProvider from './components/DataContext'
 //import Menu from './components/Menu'
-//import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
@@ -40,6 +40,7 @@ root.render(
         <Route path='/ajouter' element={<AddForm/>}/>
         <Route path='/description/:identifiant' element={<Description/>}/>
       </Routes>
+      <Footer/>
      </ArticleListProvider> 
     </Router>
       
