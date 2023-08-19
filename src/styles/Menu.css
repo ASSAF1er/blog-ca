@@ -1,6 +1,11 @@
 *{
     margin: 0;
+    font-family: "Inter",sans-serif;
 }
+button{
+    font-family: "Inter",sans-serif;
+}
+
 .title-text{
     font-size: 1.5em;
     color: white;
@@ -68,8 +73,9 @@ a{
     color:#ff895b ;
     cursor:pointer;
     font-family: "HK CompaktHK";
-    box-shadow: 1.5px 2.5px 0 0  grey;
+    box-shadow: 0 1px 6px 0 #20212447;
     transition: 0.5s;
+    
 }
 .btn-application:hover{
     transform: scale(0.97);

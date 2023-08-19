@@ -10,7 +10,7 @@ function Couverture(){
                 d'Afrique et des <span style={{color:'#ff895bef'}}>Astuces</span> à vous couper le souffle
             </div>
             <div className="texte-normal">
-                Dans l'application vous pourrez
+                C'est encore mieux dans l'application, là vous pourrez
                 <div className="slider">
                     <p>Commander des ingrédients</p>
                     <p>Avoir des plans de repas sur 7 jours</p>

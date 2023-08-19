@@ -1,15 +1,17 @@
 .img-couverture{
-    width: 400px;
-    height: 300px;
+    width: 320px;
+    bottom: 0;
     border-radius: 0px 19px 5px 0 ;
-    margin-left: 40px;
+    margin:30px 0 0 50px;
   
 }
 .couverture{
     display: flex;
     flex-direction: row;
-    
-    margin: 100px 0 60px ;
+   /* background-image: url('../assets/cover-background.jpg');
+  background-size: cover;
+    backdrop-filter: blur(0px) grayscale(0.5) opacity(0.8);*/
+    padding: 150px 0 70px ;
     border-radius: 0px;
     background-color: transparent;
     
@@ -22,22 +24,23 @@
 }
 .texte-normal{
     margin-top: 40px;
-    text-align: center;font-size: 25px;
+    text-align: left;font-size: 25px;
     font-size: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .texte{
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    z-index: 9px;
+   
     
     
 }
 .btn-telecharger{
     width: 300px;
-    margin-top: 35px;
+    margin-top: 45px;
     padding: 12px 0px;
     background-color: #ff895b;
     border: 2px solid #ff895b;
@@ -60,10 +63,11 @@
     transform: scale(0.98);
 }
 .slider{
-    margin-left:10px;
+    margin:20px 0 0 0;
     height: 30px;
     text-align: left;
     overflow: hidden;
+   
    
 }
 .slider p{

@@ -19,6 +19,7 @@
     height:200px;
     border-radius: 10px 10px 0 0px;
     border-bottom: 2px solid #f2f1f4;
+    object-fit: fill;
 }
 body{
     background-color: #f2f1f4 !important;
