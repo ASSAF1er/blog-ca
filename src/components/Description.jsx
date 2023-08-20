@@ -16,7 +16,10 @@ function Description(){
             newArticleList.map(({ id, cover, title,categorie,autor,date,pays,drapeau, description} )=>
             (id===idInt)&&(
           <div key={id}>
+             <div className="img-descrip-wrapper">
                 <img src={cover} alt={`${title}`} className='img-descrip'/>
+             </div>
+                
                 <div className='pays-descrip'>{`${pays}  ${drapeau}`} </div>
                 
                 <div className='categorie-descrip'>{categorie.toUpperCase()}</div>
