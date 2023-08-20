@@ -16,7 +16,8 @@ function Blog({id,cover,title,categorie,autor,date,pays,drapeau ,description}){
         <div className='blog-container'>
             
             <li className="blog" key={id}>
-                <img src={cover} alt={title} className='cover-image'/>
+                <div className="image-wrapper"><img src={cover} alt={title} className='cover-image'/></div>
+                
                 <div className="pays-recette">{`${pays.toUpperCase()} ${drapeau}`}  </div>
                 <div className='categorie-blog'> {categorie.toUpperCase()}</div>
                     <div onClick={()=>favori ? (setFavori(false)):(setFavori(true))}>

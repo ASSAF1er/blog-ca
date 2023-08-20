@@ -5,6 +5,15 @@
     margin:30px 0 0 50px;
   
 }
+.image-fond{
+    background-image: url('../assets/cover-background.jpg');
+    height: 100%;
+    width: all;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    filter: blur(4px) grayscale(0.1) ;
+}
 .couverture{
     display: flex;
     flex-direction: row;
@@ -14,6 +23,7 @@
     padding: 150px 0 70px ;
     border-radius: 0px;
     background-color: transparent;
+    z-index: 2;
     
 }
 .texte-gras{

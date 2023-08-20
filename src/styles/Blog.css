@@ -14,12 +14,16 @@
     transition: 01s;
     overflow: hidden;
 }
-.cover-image{
-    width: 320px;
+.image-wrapper{
+     width: 320px;
     height:200px;
     border-radius: 10px 10px 0 0px;
     border-bottom: 2px solid #f2f1f4;
-    object-fit: fill;
+}
+.cover-image{
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
 }
 body{
     background-color: #f2f1f4 !important;
